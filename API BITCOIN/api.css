@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@600&family=Kablammo&family=Kanit:wght@300&family=Moirai+One&family=Mukta:wght@800&family=Oswald:wght@300;700&family=Phudu:wght@900&family=Roboto+Condensed&family=Roboto+Slab:wght@400;500;600&family=Teko:wght@600&family=Unbounded:wght@500;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@600&family=Kablammo&family=Kanit:wght@300&family=Moirai+One&family=Mukta:wght@800&family=Oswald:wght@300;700&family=Phudu:wght@900&family=Roboto+Condensed&family=Roboto+Slab:wght@400;500;600&family=Teko:wght@600&family=Unbounded:wght@500;900&family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@600&family=Kablammo&family=Kanit:wght@300&family=Moirai+One&family=Mukta:wght@800&family=Oswald:wght@300;700&family=Phudu:wght@900&family=Roboto+Condensed&family=Roboto+Slab&family=Teko:wght@600&family=Unbounded:wght@500;900&family=VT323&display=swap');
+
+/*This is my hand writen css for this api webside */
+body {
+    margin: 0;
+    padding: 0;
+
+
+}
+
+
+.time_zone {
+    /* all time zones */
+    display: flex;
+}
+
+.allhead {
+    /*Head tag of all collums*/
+    font-family: 'Teko';
+    font-size: 48px;
+}
+
+.para_tag {
+    /*Para after the head tag in all collums*/
+
+    color: black;
+    font-size: 16px;
+    font-family: 'Teko';
+    font-weight: 900;
+}
+
+.all_info {
+    /*Target all infp section*/
+    font-family: 'Teko';
+    font-size: 42px;
+    color: #444;
+
+}
+
+.inside_info {
+    /*inside the info section*/
+    font-size: 18px;
+    font-weight: 600;
+    font-family: ui-serif;
+
+}
+
+.remove {
+    display: none;
+
+}
+
+#remove1 {
+    display: none;
+}
+
+.discription {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.discription::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    background: url(image/pexels-rafael-cerqueira-4737484.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+
+}
+
+#dis {
+    height: 85px;
+    display: block;
+    width: 100%;
+    /* background: aqua; */
+    text-align: center;
+    position: relative;
+    top: 10px;
+    font-size: 28px;
+    font-weight: 700;
+    color: white;
+    font-family: 'VT323'
+}
+
+#dis::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    background: black;
+    opacity: 0.4;
+    bottom: 2px;
+    top: -68px;
+    right: 2px;
+}
+
+
+/*footer css*/
+footer {
+    width: 100%;
+    height: 400px;
+}
+
+.foot-div {
+    background-color: #191919;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.foot-divs {
+    height: 200px;
+    width: 200px;
+    border: 2px solid white;
+    position: relative;
+    bottom: 20px;
+}
+
+#first-part {
+    display: flex;
+    flex-direction: column;
+    border: none;
+
+}
+
+#logo {
+    color: white;
+    font-size: 28px;
+    font-weight: 700;
+    font-family: math;
+    text-decoration: underline 3px white;
+}
+
+#color {
+    color: #e7ab3c;
+}
+
+#ptag-foot {
+    color: #b2b2b2;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 2px;
+    margin-top: 5px;
+    font-family: 'Roboto Slab'
+}
+
+#contact-num {
+
+    color: #b2b2b2;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 2px;
+    margin-top: 5px;
+    font-family: 'Roboto Slab'
+}
+
+#email {
+    color: #b2b2b2;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 2px;
+    margin-top: 5px;
+    font-family: 'Roboto Slab'
+}
+
+#second-div {
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+
+#information {
+    color: white;
+    font-size: 23px;
+    font-weight: 500;
+    font-family: 'Roboto Slab'
+}
+
+.foot-ul {
+    height: 169px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    font-size: larger;
+}
+.foot-li{
+    position: relative;
+    right: 29px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+#third-div{
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+#accounts{
+    color: white;
+    font-size: 23px;
+    font-weight: 500;
+    font-family: 'Roboto Slab'
+}
+#fourth-div{
+    display: flex;
+    flex-direction: column;
+    border: none;
+    width: 335px;
+}
+#enter-mail{
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+    font-family: 'Roboto Slab'
+}
+#email-div{
+    width: 339px;
+    display: flex;
+
+}
+#mail{
+    position: relative;
+    left: 4px;
+    border: none;
+    height: 41px;
+    text-align: center;
+    width: 232px;
+    background-color:#303030 ;
+}
+#sub-btn{
+    border: navajowhite;
+    height: 41px;
+    width: 100px;
+    text-align: center;
+    background: #e7ab3c;
+}
+#sub-spn{
+    color: #ffffff;
+    background: #e7ab3c;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase
+}
